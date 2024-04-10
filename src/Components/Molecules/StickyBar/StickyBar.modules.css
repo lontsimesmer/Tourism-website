@@ -1,11 +1,15 @@
 .stickybar {
-  align-items: center;
   background: #304f47;
   display: flex;
   height: 50px;
+}
+
+.Stickybar_Content {
+  align-items: center;
+  display: flex;
   justify-content: space-between;
-  padding: 0 100px;
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .stickybar-info {
@@ -15,20 +19,18 @@
   gap: 10px;
 }
 
-.icon {
+.aifill {
   color: #fff;
   cursor: pointer;
-  font-size: 28px;
 }
 
 .icon-text {
-  align-items: flex-end;
   color: #fff;
   font-family: 'Podkova';
   font-size: 12px;
   padding-bottom: 5px;
   position: relative;
-  right: 2%;
+  right: 1.5%;
 }
 
 .stickybar-icons {
@@ -37,17 +39,38 @@
   gap: 8px;
 }
 
-.icons {
+.circle {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: flex;
+  height: 23px;
+  justify-content: center;
+  width: 23px;
+}
+
+.bilogo {
   color: #fff;
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-  .stickybar-icons {
-    gap: 5px;
+.aioutline {
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .stickybar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
 
-  .stickybar-info {
-    gap: 2px;
+  .icon-text {
+    display: none;
+  }
+
+  .stickybar-icons {
+    gap: 5px;
   }
 }
