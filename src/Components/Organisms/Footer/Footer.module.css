@@ -1,114 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
-
 .footerContainer {
-  display: flex;
-  flex-direction: column;
-  background-color: #304F47;
-  margin: 100px 0 0 0;
-  color: white;
+  background-color: #304f47;
+  color: #fff;
+  height: 565px;
 }
 
 .footerWrapper {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
-  padding: 0px 100px;
-}
-
-.footerLinks {
-  display: flex;
-  align-items: center;
-}
-
-.footerLinks img {
-  height: 30px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .container-left {
-  font-size: 20px;
-  font-family: 'Mulish',serif;
-  margin: 40px 0;
-  padding: 0 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 10px 0;
 }
 
-.container-right {
-  padding: 0 25px;
-  display: flex;
-  flex-direction: column;
-  height: 438px;
-  align-content: flex-start;
-}
-
-.logoAndLinks {
-  display: flex;
-  justify-content: space-between;
-  color: darkturquoise;
-}
-
-.footerMain__Links {
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  padding: 0px 0 0 0;
-}
-
-.footerMain__Links ul {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.footerMain__Links ul li {
-  margin: 0;
-  padding: 8%;
-}
-
-.subtextcontainer p{
-  width: 396px;
-  text-align: left;
-  word-break: normal;
-  font-size: 20px;
-}
-
-.Footer__container__text-left h1 {
-  margin: 0;
-  padding: 0;
-  width: 468px;
-  text-align: left;
-  font-family: 'Lora',sans-serif;
-  word-break: normal;
+.container-left h1 {
+  font-family: 'Lora', sans-serif;
   font-size: 39px;
+  font-weight: 700;
+  line-height: 46.8px;
+  letter-spacing: 0.005em;
+  width: 65%;
 }
 
-.container__right-text {
-  font-family: 'Mulish',serif;
-  font-size: 16px;
-  width: 499px;
-  text-align: left;
-  word-break: normal;
+.subtextcontainer {
+  font-family: 'Mulish', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  margin: 35px 0;
+  width: 396px;
 }
 
-.rightsText {
-  text-align: center;
-  font-size: 16px;;
+.subtextcontainer ul {
+  line-height: 1.3;
+  list-style: none;
+  padding: 5px 0 10px 0;
+}
+
+.formLable {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  padding-left: 5px;
 }
 
 .sendButton {
-  background-color: #C7923E;
-  padding: 0;
+  align-items: center;
+  background-color: #c7923e;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
   height: 60px;
+  justify-content: center;
   width: 60px;
-}
-
-.footerInput {
-  height: 55px;
-  padding: 0;
 }
 
 .input__button {
@@ -117,101 +70,169 @@
   padding: 25px 0 0 0;
 }
 
-.container__right-text p{
-  padding: 25px 0;
-}
-
 .input__button input {
+  border: none;
   border-radius: 8px;
+  color: #9a9ab0;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  height: 58px;
+  gap: 0px;
+  left: 95px;
+  letter-spacing: 0.005em;
+  line-height: 20px;
+  outline: none;
+  padding: 0 15px;
+  width: 333px;
 }
 
-.input__button input::placeholder {
+.iosend {
+  color: #fff;
+  font-size: 25px;
+}
+
+.container-right {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  height: 430px;
+}
+
+.Logo_icons {
+  align-items: center;
+  display: flex;
+  gap: 180px;
+  padding-left: 15px;
+}
+
+.footer_icons_links {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+}
+
+.circles {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: flex;
+  height: 29px;
+  justify-content: center;
+  width: 29px;
+}
+
+.circles:hover {
+  background-color: #79818c;
+  transition: all 0.4s ease;
+}
+
+.container-right p {
+  padding: 10px 0 40px 0;
+  width: 90%;
+}
+
+.footerMain__Links {
+  display: flex;
+  font-size: 16px;
+  gap: 140px;
+  padding-top: 20px;
+}
+
+.footerLinks_columns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footerLinks_columns a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerLinks_columns a:hover {
+  color: #0f1a2f;
+  transition: all 0.4s ease;
+}
+
+.License {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.005em;
   text-align: center;
 }
 
-.input__button button {
-  border-radius: 8px;
-  color: white;
-  border: none;
-}
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    height: 960px;
+    overflow-y: hidden;
+  }
 
-@media screen and (max-width: 950px) {
-  
   .footerWrapper {
     flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: center;
-    padding: 0 0;
-    gap: 50px;
+    width: 90%;
   }
 
-  .formLable {
-   width: 75%;
-   margin: 5px 0;
+  .container-left h1 {
+    font-size: 30px;
+    width: 100%;
   }
 
-  .container-left {
-    margin: 0px 0;
-    padding: 0;
+  .subtextcontainer {
+    margin: 0;
   }
 
-  .footerContainer {
-    margin: 50px 0 0 0;
-  }
-  
-
-  .subtextcontainer p{
-    width: 75%;
+  .subtextcontainer p {
     font-size: 18px;
-    margin: 5px auto;
+    width: 90%;
   }
 
   .input__button {
-    width: 75%;
-  }
-  
-  .Footer__container__text-left h1 {
-    width: 75%;
-    font-size: 28px;
-    margin: 5px auto;
+    display: flex;
+    padding-top: 5px;
+    width: 100%;
   }
 
-  .container-left {
-    align-items: center;
-    margin: 0;
-    gap: 10px;
+  .input__button input {
+    border-radius: 8px 0 0 8px;
+    flex: 2;
+    height: 50px;
+    width: 100%;
+  }
+
+  .sendButton {
+    border-radius: 0 8px 8px 0;
+    height: 50px;
+    position: relative;
+    right: 2.8%;
   }
 
   .container-right {
-    align-content: flex-start;
-    justify-content: space-between;
-    height: 380px;
-    margin: 10px 0;
-
+    margin: 30px 0;
   }
 
-  .container__right-text {
-    width: 75%;
- }
+  .Logo_icons {
+    gap: 120px;
+  }
 
- form {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
- }
+  .container-right p {
+    width: 100%;
+  }
 
- .input__button input {
-  flex: 2;
- }
+  .footerMain__Links {
+    gap: 50px;
+    padding-top: 0;
+  }
 
- .input__button {
-  padding: 2px 0 0 0;
-  display: flex;
-}
+  .footerLinks_columns {
+    gap: 15px;
+  }
 
-.container__right-text p{
-  padding: 2px 0;
-}
+  .License {
+    margin-top: -50px;
+  }
 }

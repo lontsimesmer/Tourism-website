@@ -1,86 +1,91 @@
-.tourism-site__Card__container {
-  display: flex;
-  justify-content: center;
+.displayCards__container {
   align-items: center;
+  display: flex;
   flex-wrap: wrap;
   gap: 34px 17px;
-  padding: 0 10rem;
+  justify-content: center;
+  margin: 95px auto;
+  padding: 0 15.6rem;
   width: 100%;
-  margin: 93px auto;
 }
 
-.tourism-site__Card-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 25%;
-  min-width: 350px;
-  height: 584px;
+.displayCards_items {
   border: 1px solid #e1e1e1;
   border-radius: 8px;
-  padding: 0 0 14px 0;
+  display: flex;
+  flex-direction: column;
+  height: 584px;
+  justify-content: space-between;
+  min-width: 350px;
+  padding-bottom: 25px;
+  width: 25%;
 }
 
-.tourism-site__Card-card img {
-  width: 100%;
-  height: 290px;
+.displayCards_image_text img {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+  height: 310px;
+  width: 350px;
 }
 
-.tourism-site__Card-card-text {
-  width: 100%;
+.displayCards_image_text {
   display: flex;
   flex-direction: column;
   height: fit-content;
+  width: 100%;
 }
 
-.tourism-site__Card-card-text p {
-  width: 100%;
-  box-sizing: border-box;
-  height: fit-content;
-  word-break: normal;
-  text-align: left;
-  margin: auto;
-  padding: 0 14px 0 14px;
-  font-size: 16px;
-}
-
-.tourism-site__Card-card-text h2 {
-  margin: 32px 0 13px 0;
-  width: 100%;
-  text-align: left;
-  padding: 0 14px;
+.displayCards_image_text h2 {
+  color: #11142d;
+  font-family: Lora;
   font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  line-height: 28.8px;
+  margin-bottom: -3px;
+  padding: 10px 14px 0 14px;
+  width: 100%;
 }
 
-.tourism-site__Card-card button {
-  height: fit-content;
-  width: fit-content;
-  align-self: flex-start;
-  margin: 0px 14px;
-  padding: 18px 24px 18px 24px;
-  background-color: #c7923e;
-  color: white;
+.displayCards_image_text p {
+  box-sizing: border-box;
+  font-family: Mulish;
   font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 20px;
+  padding: 0 14px;
+  width: 82%;
+}
+
+.displayCards_items button {
+  background: #c7923e;
   border: none;
   border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  height: 58px;
+  margin: 0 14px;
+  width: 120px;
 }
 
 @media screen and (max-width: 1050px) {
-  .tourism-site__Card__container {
+  .displayCards__container {
     padding: 0 1.5rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .tourism-site__Card__container {
+  .displayCards__container {
     margin: 25px auto;
     width: 85%;
     padding: 0 12rem;
   }
 
-  .tourism-site__Card-card {
+  .displayCards_items {
     width: 400px;
     height: 584px;
   }

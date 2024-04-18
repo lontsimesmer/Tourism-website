@@ -1,42 +1,46 @@
-.tourism-site__Logo-wrapper {
+.Logo__wrapper {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 120px 0px;
+  padding: 100px 0px;
 }
 
-.tourism-site__Logo-container {
-  height: 150px;
-  width: 250px;
+.Logo_container {
+  align-items: center;
   background-color: #304f47;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
+  height: 150px;
   justify-content: center;
-  align-items: center;
+  width: 250px;
 }
 
-.tourism-site__Logo-text {
-  width: 202px;
-  word-break: normal;
-  text-align: center;
-  margin: 0 auto;
-  color: white;
+.Logo_text {
+  color: #fff;
+  font-family: Lora;
   font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  width: 80%;
 }
 
-@media screen and (max-width: 900px){
-  
-  .tourism-site__Logo-wrapper {
+.Aioutline {
+  color: #fff;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .Logo__wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .tourism-site__Logo-container {
-    height: 150px;
-    width: 325px;
+  .Logo_container {
     margin: auto;
   }
-  
 }

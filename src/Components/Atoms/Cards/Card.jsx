@@ -4,11 +4,11 @@ import CardData from '../../../data/CardData.json';
 
 function Card() {
   return (
-    <div className={styles['tourism-site__Card__container']}>
+    <div className={styles.displayCards__container}>
       {CardData.map((data) => {
         return (
-          <div className={styles['tourism-site__Card-card']} key={data.id}>
-            <div className={styles['tourism-site__Card-card-text']}>
+          <div className={styles.displayCards_items} key={data.id}>
+            <div className={styles.displayCards_image_text}>
               <img src={data.src} alt={data.title} />
               <h2>{data.title}</h2>
               <p>{data.desc}</p>

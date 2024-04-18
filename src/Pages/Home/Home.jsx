@@ -6,7 +6,7 @@ import StickyBar from '../../Components/Molecules/StickyBar/StickyBar';
 import BorderBottom from '../../Components/Molecules/BorderBottom/BorderBottom';
 import Logos from '../../Components/Atoms/Logos/Logos';
 import Hero from '../../Components/Molecules/Hero/Hero';
-import Profiles from '../../Components/Atoms/Profiles/Profiles';
+import Testimonials from '../../Components/Atoms/Testimonials/Testimonials';
 import Slider from '../../Components/Molecules/Slider/Slider';
 import Card from '../../Components/Atoms/Cards/Card';
 
@@ -33,7 +33,7 @@ function Home() {
         title="Our Traveller Say"
         subtitle="What our clients say about us"
       />
-      <Profiles />
+      <Testimonials />
       <Footer />
     </div>
   );

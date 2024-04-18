@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-
 .tourism-site__Home__header-container h1 {
-  width: 40%;
+  width: 32%;
   font-family: 'Lora', serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
   letter-spacing: 0.005em;
-  text-align: center;  
+  text-align: center;
   word-break: normal;
   text-align: center;
   margin: auto;
 }
 
 .tourism-site__Home__header-container h2 {
-  color: #C7923E;
+  color: #c7923e;
   text-align: center;
   font-family: 'Lora', serif;
   font-size: 32px;
@@ -24,13 +22,12 @@
 }
 
 @media screen and (max-width: 650px) {
-  
   .tourism-site__Home__header-container h1 {
     width: 80%;
     font-size: 32px;
     line-height: 42px;
   }
- 
+
   .tourism-site__Home__header-container h2 {
     font-size: 28px;
     line-height: 58px;
