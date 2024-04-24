@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-
 .tourism-site__header-text {
+  color: #11142d;
+  font-family: 'Lora', sans-serif;
   font-size: 62px;
-  width: 90%;
+  font-weight: 700;
+  line-height: 74.4px;
+  letter-spacing: 0.003em;
+  margin: 150px 0 80px 0;
   text-align: center;
-  margin: 100px auto;
-  font-family: 'Lora',sans-serif;
 }
 
 hr {
-  width: 25%;
-  height: 10px;
-  background-color:#304F47;
+  background-color: #304f47;
   border: none;
+  height: 8px;
+  margin: 40px auto 0 auto;
+  width: 280px;
 }
 
-@media screen  and (max-width: 950px) {
-  
-  .aboutContainer h1 {
-    font-size: 32px;
-    width: 100%;
-    padding: 0;
+@media screen and (max-width: 950px) {
+  .tourism-site__header-text {
+    font-size: 60px;
+    margin-top: 100px;
+  }
+
+  hr {
+    margin-top: 30px;
+    width: 180px;
   }
 }

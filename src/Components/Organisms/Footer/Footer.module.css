@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding-top: 20px;
   width: 80%;
 }
 
@@ -26,12 +27,15 @@
 }
 
 .subtextcontainer {
+  display: flex;
+  flex-direction: column;
   font-family: 'Mulish', serif;
   font-size: 20px;
   font-weight: 400;
+  gap: 20px;
   line-height: 25px;
   letter-spacing: 0.005em;
-  margin: 35px 0;
+  margin: 35px 0 50px 0;
   width: 396px;
 }
 
@@ -93,12 +97,15 @@
 }
 
 .container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   font-family: Mulish;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.005em;
-  height: 430px;
+  height: 455px;
 }
 
 .Logo_icons {
@@ -137,8 +144,8 @@
 .footerMain__Links {
   display: flex;
   font-size: 16px;
-  gap: 140px;
-  padding-top: 20px;
+  gap: 150px;
+  margin-top: 30px;
 }
 
 .footerLinks_columns {
@@ -163,13 +170,14 @@
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.005em;
+  margin-top: 10px;
   text-align: center;
 }
 
 @media screen and (max-width: 600px) {
   .footerContainer {
     height: 960px;
-    overflow-y: hidden;
+    overflow: hidden;
   }
 
   .footerWrapper {
@@ -211,6 +219,10 @@
     right: 2.8%;
   }
 
+  .container-left form {
+    margin-top: 30px;
+  }
+
   .container-right {
     margin: 30px 0;
   }
@@ -233,6 +245,6 @@
   }
 
   .License {
-    margin-top: -50px;
+    margin-top: -40px;
   }
 }

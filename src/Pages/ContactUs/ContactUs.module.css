@@ -1,36 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
-
 .text__containter {
   text-align: center;
-  box-sizing: border-box;
   width: 100%;
-  padding: 0 175px;
-}
-
-.text__containter p {
-  text-align: left;
-  font-family: 'Mulish',serif;
-  width: 65%;
-  margin: auto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 125%;
 }
 
 .text__containter h1 {
-  font-size: 62px;
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 62px;
-  line-height: 120%;
+  color: #11142d;
   font-family: 'Lora', serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74.4px;
+  padding-top: 20px;
+  letter-spacing: 0.003em;
+}
+
+.text__containter p {
+  color: #515151;
+  font-family: 'Mulish', serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 30px;
+  margin: 20px auto;
+  width: 59%;
+  text-align: left;
 }
 
 @media screen and (max-width: 980px) {
-
   .text__containter {
     padding: 0 0px;
   }
@@ -47,6 +42,4 @@
     text-align: center;
     word-break: keep-all;
   }
-
-
 }

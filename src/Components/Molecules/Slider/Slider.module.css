@@ -1,6 +1,7 @@
 .Slider__container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
   overflow: hidden;
   width: 100%;
 }
@@ -64,8 +65,13 @@
   height: 56px;
   justify-content: center;
   padding: 0;
-  transition: 0.5s;
+  transition: 1s;
   width: 56px;
+}
+
+.Slider_button button:hover {
+  background-color: #fff;
+  color: #c7923e;
 }
 
 .Slider_button button:first-child {
@@ -73,9 +79,15 @@
   border: 2px solid #c7923e;
   color: #c7923e;
   cursor: pointer;
+  transition: 1s;
 }
 
-@media screen and (max-width: 950px) {
+.Slider_button button:first-child:hover {
+  background-color: #c7923e;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
   .Slider__wrapper {
     display: flex;
     flex-wrap: wrap;

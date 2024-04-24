@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 100px 0px;
+  margin: 100px 0px;
 }
 
 .Logo_container {
@@ -33,7 +33,7 @@
   font-size: 50px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .Logo__wrapper {
     display: flex;
     flex-wrap: wrap;

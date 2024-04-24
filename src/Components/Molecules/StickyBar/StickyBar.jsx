@@ -7,8 +7,6 @@ import {
   AiOutlineTwitter,
 } from 'react-icons/ai';
 import { BiLogoFacebook, BiLogoLinkedin } from 'react-icons/bi';
-// import email from '../../../assets/images/group email.png';
-// import phone from '../../../assets/images/group phone.png';
 
 function StickyBar() {
   return (

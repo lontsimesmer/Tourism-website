@@ -9,6 +9,7 @@ import Hero from '../../Components/Molecules/Hero/Hero';
 import Testimonials from '../../Components/Atoms/Testimonials/Testimonials';
 import Slider from '../../Components/Molecules/Slider/Slider';
 import Card from '../../Components/Atoms/Cards/Card';
+import './Home.css';
 
 function Home() {
   return (
@@ -29,10 +30,10 @@ function Home() {
       <Slider />
       <Header title="Why us?" subtitle="Why Travel with Africa wizzy Safari" />
       <Logos />
-      <Header
-        title="Our Traveller Say"
-        subtitle="What our clients say about us"
-      />
+      <div className="tourism-site__Home__header-container">
+        <h2>Our Traveller Say</h2>
+        <h1>What our clients say about us</h1>
+      </div>
       <Testimonials />
       <Footer />
     </div>

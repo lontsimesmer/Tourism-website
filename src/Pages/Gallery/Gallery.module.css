@@ -1,10 +1,30 @@
 .buttonSpaced {
   display: flex;
   justify-content: flex-end;
-  box-sizing: border-box;
-  width: 1124px;
-  padding: 75px 0 0 0;
-  margin: auto;
+  margin: 0 auto;
+  padding-top: 75px;
+  width: 60%;
+}
+
+.instagramButton {
+  background-color: #c7923e;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 19.2px;
+  min-height: 56px;
+  min-width: 171px;
+  padding: 18px 24px;
+  transition: 0.5s;
+}
+
+.instagramButton:hover {
+  transform: translateY(-10px);
 }
 
 .GalleryStyles {
@@ -13,10 +33,8 @@
 }
 
 @media screen and (max-width: 950px) {
-
   .buttonSpaced {
     justify-content: center;
     width: 100%;
   }
-  
 }

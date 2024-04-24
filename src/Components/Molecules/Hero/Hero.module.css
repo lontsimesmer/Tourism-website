@@ -7,7 +7,7 @@
   left: 10%;
   letter-spacing: 0.003em;
   position: absolute;
-  top: 35%;
+  top: 41%;
   width: 35%;
 }
 
@@ -20,10 +20,10 @@
   left: 10%;
   letter-spacing: 0.005em;
   position: absolute;
-  top: 55%;
+  top: 58%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .Hero__title h1 {
     font-size: 38px;
     line-height: 55px;

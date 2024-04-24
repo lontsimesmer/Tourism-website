@@ -1,21 +1,19 @@
 import React from 'react';
-import './CardTourPackage.css';
+import styles from './CardTourPackage.module.css';
 import CardTourPackageData from '../../../data/CardTourPackage.json';
 
 function CardTourPackage() {
   return (
-    <div className="cardWrapper">
+    <div className={styles.displayCards__container}>
       {CardTourPackageData.map((data) => {
         return (
-          <div className="card">
-            <div className="cardText" key={data.desc}>
+          <div className={styles.displayCards_items}>
+            <div className={styles.displayCards_image_text} key={data.desc}>
               <img src={data.src} alt={data.title} />
               <h2>{data.title}</h2>
               <p>{data.desc}</p>
             </div>
-            <div className="learnMore__button-container">
-              <button type="button">Learn More</button>
-            </div>
+            <button type="button">Learn More</button>
           </div>
         );
       })}

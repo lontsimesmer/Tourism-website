@@ -16,7 +16,7 @@
   font-size: 70px;
   left: 10%;
   position: absolute;
-  top: 80%;
+  top: 75%;
   transition: 0.5s;
 }
 
@@ -31,7 +31,7 @@
   font-size: 70px;
   right: 10%;
   position: absolute;
-  top: 80%;
+  top: 75%;
   transition: 0.5s;
 }
 
@@ -47,8 +47,10 @@
   }
   .Left_slides {
     font-size: 50px;
+    top: 80%;
   }
   .Right_slides {
     font-size: 50px;
+    top: 80%;
   }
 }

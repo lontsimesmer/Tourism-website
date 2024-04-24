@@ -1,41 +1,57 @@
+:root {
+  --commonGap: 10px;
+  --commonTrans: 0.5s;
+}
+
 .MainBox {
+  color: transparent;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin: 75px 0;
-  color: transparent;
+  gap: 15px;
+  margin: 100px 0;
 }
 
 .box {
-  height: 496px;
+  height: 506px;
   width: 1124px;
   display: flex;
-  margin: auto;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-1 {
   display: flex;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-1-a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://live.staticflickr.com/2521/3990945324_364f41cd2f_w.jpg');
-  height: 495px;
-  width: 215px;
+  background-image: url('../../../assets/images/Giraffe.png');
+  height: 496px;
+  width: 216px;
   justify-content: space-between;
+  transition: var(--commonTrans);
+}
+
+.box-1-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-1-b {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg');
+  background-image: url('../../../assets/images/Monkeys.jpg');
   height: 247px;
-  width: 215px;
+  width: 216px;
+  transition: var(--commonTrans);
+}
+
+.box-1-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-1-c {
@@ -47,193 +63,286 @@
   align-items: center;
   justify-content: center;
   height: 247px;
-  width: 215px;
+  width: 216px;
+  transition: var(--commonTrans);
+}
+
+.box-1-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .flex-1 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .box-2 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-2-a {
   height: 341px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+  transition: var(--commonTrans);
+}
+
+.box-2-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-2-b {
-  height: 152px;
-  width: 215px;
+  height: 153px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('http://www.mrlinhadventure.com/UserFiles/image/Travel-blog/Image-content/bac%20son%20valley.jpg');
+  background-image: url('../../../assets/images/hills.png');
+  transition: var(--commonTrans);
+}
+
+.box-2-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-3 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-3-a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://cdn.shortpixel.ai/spai/w_918+q_lossy+ret_img+to_webp/https://www.cruisingworld.com/wp-content/uploads/sites/17/2021/09/CRW0220_WPT02.jpg');
+  background-image: url('../../../assets/images/tourists-on-boat.png');
+  transition: var(--commonTrans);
   height: 247px;
-  width: 442px;
+  width: 443px;
+}
+
+.box-3-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-3-b {
   height: 247px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://media.istockphoto.com/id/1194405278/photo/traditional-round-houses-in-an-african-village.jpg?s=612x612&w=0&k=20&c=0-Y9W3jmgCQe9CMYTm-4IKWCr1kSLRCXklfUnyK90c4=');
+  background-image: url('../../../assets/images/hut.png');
+  transition: var(--commonTrans);
+}
+
+.box-3-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-3-c {
   height: 247px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.liherald.com/uploads/original/20220721-111341-skybox%202%20---200%20B%20FRE%20Canoe%208-5-21.JPG');
+  background-image: url('../../../assets/images/sea-hiking.png');
+  transition: var(--commonTrans);
+}
+
+.box-3-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .flex-3 {
   display: flex;
-  gap: 10px;
-}
-
-.box {
-  height: 496px;
-  width: 1124px;
-  display: flex;
-  margin: auto;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-4 {
   display: flex;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-4-a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://live.staticflickr.com/2521/3990945324_364f41cd2f_w.jpg');
-  height: 495px;
-  width: 215px;
+  background-image: url('https://www.constructionweekonline.com/cloud/2021/07/07/OC-1.gif');
+  transition: var(--commonTrans);
+  height: 504px;
+  width: 216px;
+}
+
+.box-4-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-4a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/Elephant.png');
+  transition: var(--commonTrans);
+  height: 496px;
+  width: 216px;
+}
+
+.box-4a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-4-b {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg');
+  background-image: url('../../../assets/images/bicycle-hiking.png');
+  transition: var(--commonTrans);
   height: 247px;
-  width: 215px;
+  width: 216px;
+}
+
+.box-4-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-4-c {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg');
+  background-image: url('../../../assets/images/hut-iland.png');
+  transition: var(--commonTrans);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 247px;
-  width: 215px;
+  width: 216px;
+}
+
+.box-4-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .flex-4 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-5 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-5-a {
   height: 341px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+  background-image: url('../../../assets/images/parish-church.png');
+  transition: var(--commonTrans);
+}
+
+.box-5-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-5-b {
-  height: 152px;
-  width: 215px;
+  height: 153px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('http://www.mrlinhadventure.com/UserFiles/image/Travel-blog/Image-content/bac%20son%20valley.jpg');
+  background-image: url('../../../assets/images/infant.png');
+  transition: var(--commonTrans);
+}
+
+.box-5-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-6 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-6-a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://cdn.shortpixel.ai/spai/w_918+q_lossy+ret_img+to_webp/https://www.cruisingworld.com/wp-content/uploads/sites/17/2021/09/CRW0220_WPT02.jpg');
+  background-image: url('../../../assets/images/amazing-view.png');
+  transition: var(--commonTrans);
   height: 247px;
-  width: 442px;
+  width: 443px;
+}
+
+.box-6-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-6-b {
   height: 247px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://media.istockphoto.com/id/1194405278/photo/traditional-round-houses-in-an-african-village.jpg?s=612x612&w=0&k=20&c=0-Y9W3jmgCQe9CMYTm-4IKWCr1kSLRCXklfUnyK90c4=');
+  background-image: url('../../../assets/images/mosque.png');
+  transition: var(--commonTrans);
+}
+
+.box-6-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-6-c {
   height: 247px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://journals.openedition.org/jso/docannexe/image/8760/img-1-small480.jpg');
+  background-image: url('../../../assets/images/sun-set.png');
+  transition: var(--commonTrans);
+}
+
+.box-6-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .flex-6 {
   display: flex;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-A {
   margin: auto;
-  gap: 10px;
+  gap: var(--commonGap);
   box-sizing: border-box;
   display: flex;
+  height: 506px;
+  width: 1124px;
 }
 
 .box {
@@ -241,7 +350,7 @@
   width: 1124px;
   display: flex;
   margin: auto;
-  gap: 10px;
+  gap: var(--commonGap);
 }
 
 .box-7 {
@@ -249,34 +358,37 @@
   gap: 10px;
 }
 
-.box-1-7 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('https://live.staticflickr.com/2521/3990945324_364f41cd2f_w.jpg');
-  height: 495px;
-  width: 215px;
-}
-
 .box-7-b {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg');
+  background-image: url('../../../assets/images/zipline.png');
+  transition: var(--commonTrans);
   height: 247px;
-  width: 215px;
+  width: 216px;
+}
+
+.box-7-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-7-c {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg');
+  background-image: url('../../../assets/images/Zebu.png');
+  transition: var(--commonTrans);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 247px;
-  width: 215px;
+  width: 216px;
+}
+
+.box-7-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .flex-7 {
@@ -293,20 +405,32 @@
 
 .box-8-a {
   height: 341px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+  background-image: url('../../../assets/images/visitors-togerther.png');
+  transition: var(--commonTrans);
+}
+
+.box-8-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-8-b {
   height: 152px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('http://www.mrlinhadventure.com/UserFiles/image/Travel-blog/Image-content/bac%20son%20valley.jpg');
+  background-image: url('../../../assets/images/sacred-cage.png');
+  transition: var(--commonTrans);
+}
+
+.box-8-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-9 {
@@ -319,27 +443,45 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://cdn.shortpixel.ai/spai/w_918+q_lossy+ret_img+to_webp/https://www.cruisingworld.com/wp-content/uploads/sites/17/2021/09/CRW0220_WPT02.jpg');
+  background-image: url('../../../assets/images/museum.png');
+  transition: var(--commonTrans);
   height: 247px;
-  width: 442px;
+  width: 443px;
+}
+
+.box-9-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-9-b {
   height: 247px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://media.istockphoto.com/id/1194405278/photo/traditional-round-houses-in-an-african-village.jpg?s=612x612&w=0&k=20&c=0-Y9W3jmgCQe9CMYTm-4IKWCr1kSLRCXklfUnyK90c4=');
+  background-image: url('../../../assets/images/hike.png');
+  transition: var(--commonTrans);
+}
+
+.box-9-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .box-9-c {
   height: 247px;
-  width: 215px;
+  width: 216px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://www.liherald.com/uploads/original/20220721-111341-skybox%202%20---200%20B%20FRE%20Canoe%208-5-21.JPG');
+  background-image: url('../../../assets/images/tourist-picture.png');
+  transition: var(--commonTrans);
+}
+
+.box-9-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
 }
 
 .flex-9 {
@@ -347,15 +489,22 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 950px){
-  
+@media screen and (max-width: 768px) {
   .MainBox {
-    overflow: hidden;
-    padding: 0;
-  }
-
-  *{
     overflow-x: hidden;
   }
 
+  .box {
+    height: 506px;
+    width: 1124px;
+    display: flex;
+    gap: var(--commonGap);
+  }
+
+  /* .box-A {
+    margin: auto;
+    gap: var(--commonGap);
+    box-sizing: border-box;
+    display: flex;
+  } */
 }

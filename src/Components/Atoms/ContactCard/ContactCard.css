@@ -1,64 +1,103 @@
 .tourismSite__contactCard {
   display: flex;
-  width: 60%;
-  margin: auto;
-  justify-content: space-between;
-  box-sizing: border-box;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 
-.contact-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 160px;
+.contactCard {
+  border: 1px solid #e1e1e1;
   border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  border: 1px solid #E1E1E1;
-}
-
-.imgIcons {
-  display: flex;
-}
-
-.imgAddress {
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px 0;
   display: flex;
   flex-direction: column;
-}
-
-.contact-card i {
-  color: #304F47;
-  height: 35px;
-  width: 35px;
-  padding: 0;
-  border-radius: 50%;
-  border: 2px solid #304F47;
-  display: flex;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-  font-size: 1.2rem;
+  height: 157px;
+  padding: 0 30px;
+  width: 300px;
 }
 
-.contact-card p {
+.contactCard:nth-child(2) {
+  gap: 10px;
+}
+
+.contactCard_social-media {
+  display: flex;
+  gap: 13px;
+}
+
+.contactCard h3 {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: 0.005em;
+}
+
+.circles {
+  align-items: center;
+  border: 1px solid #304f47;
+  border-radius: 50%;
+  color: #304f47;
+  cursor: pointer;
+  display: flex;
+  font-size: 50px;
+  height: 50px;
+  justify-content: center;
+  padding: 0 10px;
+  transition: 0.5s;
+  width: 50px;
+}
+
+.circles:hover {
+  background-color: #304f47;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.contactCard_email-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: -10px;
+}
+
+.email-phone {
+  align-items: flex-end;
+  display: flex;
+  gap: 10px;
+}
+
+.aifill {
+  color: #304f47;
+  cursor: pointer;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.aifill:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px 0;
+}
+
+.email-phone p {
+  color: #304f47;
+  font-family: Podkova;
   font-size: 16px;
-  padding: 5px 0;
-  margin: 0;
+  font-weight: 400;
+  line-height: 17.73px;
 }
 
-.contact-card h3 {
-  font-size: 18px;
+.contactCard_address {
+  color: #304f47;
+  font-family: Podkova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-@media screen and (max-width: 950px) {
-  
+@media screen and (max-width: 768px) {
   .tourismSite__contactCard {
     flex-wrap: wrap;
-    padding: 0 0;
-    margin: auto;
-    justify-content: center;
-    gap: 15px;
   }
-
-
 }
