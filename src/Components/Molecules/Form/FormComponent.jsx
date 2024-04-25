@@ -9,28 +9,38 @@ function FormComponent() {
         <h3>Contact us</h3>
         <div className={styles.input__name}>
           <div>
-            <label>First Name</label>
-            <input type="text" placeholder="Input your first Name Here" />
+            <label htmlFor="firstname">First Name</label>
+            <input
+              type="text"
+              placeholder="Input your first Name Here"
+              id="firstname"
+            />
           </div>
           <div>
-            <label>Last Name</label>
-            <input type="text" placeholder="Input your last Name Here" />
+            <label htmlFor="lastname">Last Name</label>
+            <input
+              type="text"
+              placeholder="Input your last Name Here"
+              id="lastname"
+            />
           </div>
         </div>
         <div className={styles.input__email}>
-          <label>Email Address</label>
+          <label htmlFor="email">Email Address</label>
           <input
             type="text"
             placeholder="Input your Email Address Here"
             style={{ padding: '0 15px' }}
+            id="email"
           />
         </div>
         <div className={styles.input__phone}>
-          <label>Phone Number</label>
+          <label htmlFor="number">Phone Number</label>
           <input
             type="text"
             placeholder="Input your Phone Number Here"
             style={{ padding: '0 80px' }}
+            id="number"
           />
           <div className={styles.select_field}>
             <select
@@ -55,8 +65,13 @@ function FormComponent() {
           </div>
         </div>
         <div className={styles.input__message}>
-          <label>Message</label>
-          <textarea cols="5" rows="5" placeholder="Write a message" />
+          <label htmlFor="message">Message</label>
+          <textarea
+            cols="5"
+            rows="5"
+            placeholder="Write a message"
+            id="message"
+          />
         </div>
         <button type="submit">Submit</button>
       </div>

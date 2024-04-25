@@ -36,11 +36,15 @@ function Footer() {
             </ul>
           </div>
           <form>
-            <label className={styles.formLable}>
+            <label htmlFor="subscribe" className={styles.formLable}>
               Subscribe to our newspaper
             </label>
             <div className={styles.input__button}>
-              <input type="text" placeholder="Input your email here" />
+              <input
+                type="text"
+                placeholder="Input your email here"
+                id="subscribe"
+              />
               <button className={styles.sendButton} type="button">
                 <IoSend className={styles.iosend} />
               </button>
