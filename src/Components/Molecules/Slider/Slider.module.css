@@ -54,7 +54,7 @@
   align-items: center;
 }
 
-.Slider_button button {
+.Slider_button span {
   align-items: center;
   background-color: #c7923e;
   border: 2px solid #c7923e;
@@ -69,12 +69,12 @@
   width: 56px;
 }
 
-.Slider_button button:hover {
+.Slider_button span:hover {
   background-color: #fff;
   color: #c7923e;
 }
 
-.Slider_button button:first-child {
+.Slider_button span:first-child {
   background-color: #fff;
   border: 2px solid #c7923e;
   color: #c7923e;
@@ -82,7 +82,7 @@
   transition: 1s;
 }
 
-.Slider_button button:first-child:hover {
+.Slider_button span:first-child:hover {
   background-color: #c7923e;
   color: #fff;
 }

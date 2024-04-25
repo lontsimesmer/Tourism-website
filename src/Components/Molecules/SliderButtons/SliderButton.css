@@ -6,7 +6,7 @@
   width: 58%;
 }
 
-.sliderButton button {
+.sliderButton span {
   align-items: center;
   background-color: #c7923e;
   border: 2px solid #c7923e;
@@ -21,12 +21,12 @@
   width: 56px;
 }
 
-.sliderButton button:hover {
+.sliderButton span:hover {
   background-color: #fff;
   color: #c7923e;
 }
 
-.sliderButton button:first-child {
+.sliderButton span:first-child {
   background-color: #fff;
   border: 2px solid #c7923e;
   color: #c7923e;
@@ -34,7 +34,7 @@
   transition: 1s;
 }
 
-.sliderButton button:first-child:hover {
+.sliderButton span:first-child:hover {
   background-color: #c7923e;
   color: #fff;
 }

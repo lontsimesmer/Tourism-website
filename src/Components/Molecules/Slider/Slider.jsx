@@ -7,12 +7,12 @@ function Slider() {
   return (
     <div className={styles.Slider__container}>
       <div className={styles.Slider_button}>
-        <button type="button">
+        <span>
           <BsChevronLeft style={{ fontSize: 24 }} />
-        </button>
-        <button type="button">
+        </span>
+        <span>
           <BsChevronRight style={{ fontSize: 24 }} />
-        </button>
+        </span>
       </div>
       <div className={styles.Slider__wrapper}>
         {SliderData.map((data) => {
