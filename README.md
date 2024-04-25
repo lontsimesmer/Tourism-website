@@ -24,11 +24,11 @@ You can view a deployment at <bold>[Visit Rwanda](https://tourism-site-ekep-obas
 To get started with the tourism-site, simply clone the repository and install the dependencies.
 
 ```sh
-git clone https://github.com/Ekep-Obasi/Tourism-Website.git
+git clone git@github.com:lontsimesmer/Tourism-website.git
 ```
 
 ```sh
-cd Tourism-Website
+cd Tourism-website
 ```
 
 ```sh
