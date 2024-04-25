@@ -36,7 +36,7 @@ function Footer() {
             </ul>
           </div>
           <form>
-            <label htmlFor="subscribe" className={styles.formLable}>
+            <label htmlFor="" className={styles.formLable}>
               Subscribe to our newspaper
             </label>
             <div className={styles.input__button}>
@@ -45,9 +45,9 @@ function Footer() {
                 placeholder="Input your email here"
                 id="subscribe"
               />
-              <button className={styles.sendButton} type="button">
+              <span className={styles.sendButton} type="button">
                 <IoSend className={styles.iosend} />
-              </button>
+              </span>
             </div>
           </form>
         </div>

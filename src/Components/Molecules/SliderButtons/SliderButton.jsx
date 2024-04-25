@@ -5,10 +5,10 @@ import './SliderButton.css';
 function SliderButton() {
   return (
     <div className="sliderButton">
-      <span>
+      <span type="button">
         <BsChevronLeft style={{ fontSize: 24 }} />
       </span>
-      <span>
+      <span type="button">
         <BsChevronRight style={{ fontSize: 24 }} />
       </span>
     </div>
