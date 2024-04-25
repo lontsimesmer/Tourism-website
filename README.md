@@ -17,7 +17,7 @@ Here are some of the features of the site:
 
 ## Deployment
 
-You can view a deployment at <bold>[Visit Rwanda](https://github.com/lontsimesmer/Tourism-website)</bold>
+You can view a deployment at <bold>[Visit Rwanda](https://tourism-website-fv5ydik3h-mesmers-projects.vercel.app/)</bold>
 
 ## Getting Started
 
