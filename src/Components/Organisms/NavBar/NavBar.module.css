@@ -1,0 +1,155 @@
+.Navbar {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  padding: 0 2%;
+  width: 100%;
+}
+
+.Navbar__container {
+  display: flex;
+  gap: 50px;
+}
+
+.Navbar_links ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+.Navbar_links ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar_links ul li a {
+  color: #515151;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+}
+
+.Navbar_links ul li:hover {
+  border-bottom: 3px solid #304f47;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.Navbar_links ul li a:hover {
+  color: #304f47;
+}
+
+.Navbar__search {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.loop {
+  color: #fff;
+  font-size: 20px;
+}
+
+.loop:hover {
+  color: #9a9ab0;
+  cursor: pointer;
+}
+
+.Navbar_button {
+  position: relative;
+  right: 10%;
+}
+
+.Navbar__menu {
+  display: none;
+}
+
+.Navbar__menu ul {
+  background-color: #304f47;
+  border-left: 1px solid #888;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 30px;
+  list-style: none;
+  padding: 30px 0;
+  position: fixed;
+  right: 0;
+  top: 7.5%;
+  transition: 0.5s;
+  width: 70vw;
+  z-index: 1;
+}
+
+.Navbar__menu li {
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.Navbar__menu li:hover {
+  background-color: #c7923e;
+  padding: 20px 0;
+}
+
+.Navbar__menu ul li a {
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 24px;
+  padding: 0 20px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.Navbar_menu_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 10px 20px;
+}
+
+.register {
+  background: #c7923e;
+  border: 1px solid #304f47;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.005em;
+  padding: 11px 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .Navbar {
+    height: 130px;
+    padding: 0 4%;
+  }
+
+  .Navbar__container img {
+    padding-top: 50px;
+    width: 80%;
+  }
+
+  .Navbar__menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Navbar_links {
+    display: none;
+  }
+
+  .Navbar__search {
+    display: none;
+  }
+}

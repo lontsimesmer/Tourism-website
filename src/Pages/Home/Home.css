@@ -1,0 +1,43 @@
+.tourism-site__Home__header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 32%;
+}
+
+.tourism-site__Home__header-container h1 {
+  font-family: 'Lora', serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0.005em;
+}
+
+.tourism-site__Home__header-container h2 {
+  color: #c7923e;
+  font-family: 'Lora', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.005em;
+}
+
+@media screen and (max-width: 600px) {
+  .tourism-site__Home__header-container {
+    width: 100%;
+  }
+
+  .tourism-site__Home__header-container h1 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: -15px;
+  }
+
+  .tourism-site__Home__header-container h2 {
+    font-size: 30px;
+    line-height: 58px;
+  }
+}

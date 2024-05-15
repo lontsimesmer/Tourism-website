@@ -1,0 +1,37 @@
+.Hero__title h1 {
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74px;
+  left: 10%;
+  letter-spacing: 0.003em;
+  position: absolute;
+  top: 41%;
+  width: 35%;
+}
+
+.Hero__title p {
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  left: 10%;
+  letter-spacing: 0.005em;
+  position: absolute;
+  top: 58%;
+}
+
+@media screen and (max-width: 600px) {
+  .Hero__title h1 {
+    font-size: 38px;
+    line-height: 55px;
+    width: 80%;
+  }
+
+  .Hero__title p {
+    margin: 15% 0;
+    font-size: 16px;
+  }
+}

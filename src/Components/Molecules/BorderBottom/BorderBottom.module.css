@@ -1,0 +1,141 @@
+.Border__bottom {
+  align-items: center;
+  background-color: #304f47;
+  border-radius: 8px;
+  display: flex;
+  height: 88px;
+  justify-content: space-between;
+  margin: 0 auto 30px auto;
+  padding: 0px 32px;
+  transform: translateY(-50%);
+  width: 65%;
+}
+
+.Border_button_input {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #9a9ab0;
+  display: flex;
+  padding: 0 15px;
+}
+
+input::placeholder {
+  color: #9a9ab0;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+}
+
+.Border_button_input input {
+  border: 0;
+  color: #11142d;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+.Border_button_input input:focus {
+  outline: none;
+}
+
+.Hisearch {
+  cursor: pointer;
+  font-size: 24px;
+  position: relative;
+  right: 5%;
+}
+
+.Border_bottom_options {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.Select_options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Select_options label {
+  color: #9a9ab0;
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 0.008em;
+  padding-top: 10px;
+}
+
+.Option_content {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.options {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.005em;
+}
+
+.Fichevron {
+  color: #c7923e;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .Border_button_input input {
+    display: none;
+  }
+
+  .Border_button_input {
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Border__bottom {
+    height: 80px;
+    margin: auto;
+    width: 80%;
+  }
+
+  .Border_button_input input {
+    display: none;
+  }
+
+  .Border_button_input {
+    display: none;
+  }
+
+  .Border_bottom_options {
+    gap: 10px;
+  }
+
+  .options {
+    font-size: 12px;
+  }
+
+  .BorderBottom_button {
+    display: none;
+  }
+
+  .Border_button_input input::placeholder {
+    font-size: 12px;
+  }
+}

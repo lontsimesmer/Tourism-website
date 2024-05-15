@@ -1,0 +1,510 @@
+:root {
+  --commonGap: 10px;
+  --commonTrans: 0.5s;
+}
+
+.MainBox {
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 100px 0;
+}
+
+.box {
+  height: 506px;
+  width: 1124px;
+  display: flex;
+  gap: var(--commonGap);
+}
+
+.box-1 {
+  display: flex;
+  gap: var(--commonGap);
+}
+
+.box-1-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/Giraffe.png');
+  height: 496px;
+  width: 216px;
+  justify-content: space-between;
+  transition: var(--commonTrans);
+}
+
+.box-1-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-1-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.safarisrwandasafari.com/wp-content/uploads/2018/10/Chimpanzee-Trekking-in-Rwanda.jpg');
+  height: 247px;
+  width: 216px;
+  transition: var(--commonTrans);
+}
+
+.box-1-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-1-c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 247px;
+  width: 216px;
+  transition: var(--commonTrans);
+}
+
+.box-1-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--commonGap);
+}
+
+.box-2-a {
+  height: 341px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+  transition: var(--commonTrans);
+}
+
+.box-2-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-2-b {
+  height: 153px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/hills.png');
+  transition: var(--commonTrans);
+}
+
+.box-2-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--commonGap);
+}
+
+.box-3-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/tourists-on-boat.png');
+  transition: var(--commonTrans);
+  height: 247px;
+  width: 443px;
+}
+
+.box-3-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-3-b {
+  height: 247px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/hut.png');
+  transition: var(--commonTrans);
+}
+
+.box-3-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-3-c {
+  height: 247px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/sea-hiking.png');
+  transition: var(--commonTrans);
+}
+
+.box-3-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.flex-3 {
+  display: flex;
+  gap: var(--commonGap);
+}
+
+.box-4 {
+  display: flex;
+  gap: var(--commonGap);
+}
+
+.box-4-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.constructionweekonline.com/cloud/2021/07/07/OC-1.gif');
+  transition: var(--commonTrans);
+  height: 504px;
+  width: 216px;
+}
+
+.box-4-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-4a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/Elephant.png');
+  transition: var(--commonTrans);
+  height: 496px;
+  width: 216px;
+}
+
+.box-4a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-4-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/bicycle-hiking.png');
+  transition: var(--commonTrans);
+  height: 247px;
+  width: 216px;
+}
+
+.box-4-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-4-c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/hut-iland.png');
+  transition: var(--commonTrans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 247px;
+  width: 216px;
+}
+
+.box-4-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.flex-4 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--commonGap);
+}
+
+.box-5 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--commonGap);
+}
+
+.box-5-a {
+  height: 341px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/parish-church.png');
+  transition: var(--commonTrans);
+}
+
+.box-5-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-5-b {
+  height: 153px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/infant.png');
+  transition: var(--commonTrans);
+}
+
+.box-5-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-6 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--commonGap);
+}
+
+.box-6-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/amazing-view.png');
+  transition: var(--commonTrans);
+  height: 247px;
+  width: 443px;
+}
+
+.box-6-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-6-b {
+  height: 247px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/mosque.png');
+  transition: var(--commonTrans);
+}
+
+.box-6-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-6-c {
+  height: 247px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/sun-set.png');
+  transition: var(--commonTrans);
+}
+
+.box-6-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.flex-6 {
+  display: flex;
+  gap: var(--commonGap);
+}
+
+.box-A {
+  margin: auto;
+  gap: var(--commonGap);
+  box-sizing: border-box;
+  display: flex;
+  height: 506px;
+  width: 1124px;
+}
+
+.box {
+  height: 496px;
+  width: 1124px;
+  display: flex;
+  margin: auto;
+  gap: var(--commonGap);
+}
+
+.box-7 {
+  display: flex;
+  gap: 10px;
+}
+
+.box-7-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/zipline.png');
+  transition: var(--commonTrans);
+  height: 247px;
+  width: 216px;
+}
+
+.box-7-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-7-c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/Zebu.png');
+  transition: var(--commonTrans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 247px;
+  width: 216px;
+}
+
+.box-7-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.flex-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-8-a {
+  height: 341px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/visitors-togerther.png');
+  transition: var(--commonTrans);
+}
+
+.box-8-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-8-b {
+  height: 152px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/sacred-cage.png');
+  transition: var(--commonTrans);
+}
+
+.box-8-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-9-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/museum.png');
+  transition: var(--commonTrans);
+  height: 247px;
+  width: 443px;
+}
+
+.box-9-a:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-9-b {
+  height: 247px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/hike.png');
+  transition: var(--commonTrans);
+}
+
+.box-9-b:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.box-9-c {
+  height: 247px;
+  width: 216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../assets/images/tourist-picture.png');
+  transition: var(--commonTrans);
+}
+
+.box-9-c:hover {
+  box-shadow: 0px 0px 10px #222;
+  transform: scale(1.05);
+}
+
+.flex-9 {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .MainBox {
+    overflow-x: hidden;
+  }
+
+  .box {
+    height: 506px;
+    width: 1124px;
+    display: flex;
+    gap: var(--commonGap);
+  }
+
+  /* .box-A {
+    margin: auto;
+    gap: var(--commonGap);
+    box-sizing: border-box;
+    display: flex;
+  } */
+}

@@ -1,0 +1,250 @@
+.footerContainer {
+  background-color: #304f47;
+  color: #fff;
+  height: 565px;
+}
+
+.footerWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.container-left {
+  margin: 10px 0;
+}
+
+.container-left h1 {
+  font-family: 'Lora', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 46.8px;
+  letter-spacing: 0.005em;
+  width: 65%;
+}
+
+.subtextcontainer {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Mulish', serif;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 20px;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  margin: 35px 0 50px 0;
+  width: 396px;
+}
+
+.subtextcontainer ul {
+  line-height: 1.3;
+  list-style: none;
+  padding: 5px 0 10px 0;
+}
+
+.formLable {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  padding-left: 5px;
+}
+
+.sendButton {
+  align-items: center;
+  background-color: #c7923e;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 60px;
+}
+
+.input__button {
+  display: flex;
+  gap: 10px;
+  padding: 25px 0 0 0;
+}
+
+.input__button input {
+  border: none;
+  border-radius: 8px;
+  color: #11142d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  height: 58px;
+  gap: 0px;
+  left: 95px;
+  letter-spacing: 0.005em;
+  line-height: 20px;
+  outline: none;
+  padding: 0 15px;
+  width: 333px;
+}
+
+.iosend {
+  color: #fff;
+  font-size: 25px;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  height: 455px;
+}
+
+.Logo_icons {
+  align-items: center;
+  display: flex;
+  gap: 180px;
+  padding-left: 15px;
+}
+
+.footer_icons_links {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+}
+
+.circles {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: flex;
+  height: 29px;
+  justify-content: center;
+  width: 29px;
+}
+
+.circles:hover {
+  background-color: #79818c;
+  transition: all 0.4s ease;
+}
+
+.container-right p {
+  padding: 10px 0 40px 0;
+  width: 90%;
+}
+
+.footerMain__Links {
+  display: flex;
+  font-size: 16px;
+  gap: 150px;
+  margin-top: 30px;
+}
+
+.footerLinks_columns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footerLinks_columns a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerLinks_columns a:hover {
+  color: #0f1a2f;
+  transition: all 0.4s ease;
+}
+
+.License {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    height: 960px;
+    overflow: hidden;
+  }
+
+  .footerWrapper {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .container-left h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .subtextcontainer {
+    margin: 0;
+  }
+
+  .subtextcontainer p {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .input__button {
+    display: flex;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  .input__button input {
+    border-radius: 8px 0 0 8px;
+    flex: 2;
+    height: 50px;
+    width: 100%;
+  }
+
+  .sendButton {
+    border-radius: 0 8px 8px 0;
+    height: 50px;
+    position: relative;
+    right: 2.8%;
+  }
+
+  .container-left form {
+    margin-top: 30px;
+  }
+
+  .container-right {
+    margin: 30px 0;
+  }
+
+  .Logo_icons {
+    gap: 120px;
+  }
+
+  .container-right p {
+    width: 100%;
+  }
+
+  .footerMain__Links {
+    gap: 50px;
+    padding-top: 0;
+  }
+
+  .footerLinks_columns {
+    gap: 15px;
+  }
+
+  .License {
+    margin-top: -40px;
+  }
+}

@@ -1,0 +1,103 @@
+.tourismSite__contactCard {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.contactCard {
+  border: 1px solid #e1e1e1;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 157px;
+  padding: 0 30px;
+  width: 300px;
+}
+
+.contactCard:nth-child(2) {
+  gap: 10px;
+}
+
+.contactCard_social-media {
+  display: flex;
+  gap: 13px;
+}
+
+.contactCard h3 {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: 0.005em;
+}
+
+.circles {
+  align-items: center;
+  border: 1px solid #304f47;
+  border-radius: 50%;
+  color: #304f47;
+  cursor: pointer;
+  display: flex;
+  font-size: 50px;
+  height: 50px;
+  justify-content: center;
+  padding: 0 10px;
+  transition: 0.5s;
+  width: 50px;
+}
+
+.circles:hover {
+  background-color: #304f47;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.contactCard_email-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: -10px;
+}
+
+.email-phone {
+  align-items: flex-end;
+  display: flex;
+  gap: 10px;
+}
+
+.aifill {
+  color: #304f47;
+  cursor: pointer;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.aifill:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px 0;
+}
+
+.email-phone p {
+  color: #304f47;
+  font-family: Podkova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.73px;
+}
+
+.contactCard_address {
+  color: #304f47;
+  font-family: Podkova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .tourismSite__contactCard {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,46 @@
+.Logo__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 100px 0px;
+}
+
+.Logo_container {
+  align-items: center;
+  background-color: #304f47;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 150px;
+  justify-content: center;
+  width: 250px;
+}
+
+.Logo_text {
+  color: #fff;
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  width: 80%;
+}
+
+.Aioutline {
+  color: #fff;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .Logo__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .Logo_container {
+    margin: auto;
+  }
+}

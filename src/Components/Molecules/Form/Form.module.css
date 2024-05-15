@@ -1,0 +1,126 @@
+.ContactUs-form {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  height: 700px;
+  margin: 100px auto 70px auto;
+  width: 816px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.Content h3 {
+  color: #11142d;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+}
+
+.Content input {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  outline: none;
+  width: 100%;
+}
+
+.input__name input {
+  padding: 0 15px;
+  width: 360px;
+}
+
+.Content label {
+  color: #11142d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2.5;
+  letter-spacing: 0.005em;
+}
+
+.input__name {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.select_field {
+  margin-top: -48px;
+}
+
+.input__message {
+  margin-top: 20px;
+}
+
+textarea::placeholder {
+  color: #9a9ab0;
+}
+
+.ContactUs-form textarea {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  color: #11142d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  min-height: 120px;
+  outline: none;
+  padding: 10px 14px;
+  width: 100%;
+}
+
+.Content button {
+  background-color: #c7923e;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.005em;
+  height: 56px;
+  margin-top: 20px;
+  padding: 18px 24px;
+  transition: 0.5s;
+  width: 124px;
+}
+
+.Content button:hover {
+  box-shadow: 0px 0px 10px #222;
+}
+
+@media screen and (max-width: 768px) {
+  .ContactUs-form {
+    height: 800px;
+    width: 95%;
+  }
+
+  .input__name {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .input__name input {
+    width: 350px;
+  }
+
+  .input__phone-number-selected {
+    width: 92.5vw;
+  }
+}

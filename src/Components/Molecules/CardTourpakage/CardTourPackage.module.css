@@ -1,0 +1,95 @@
+.displayCards__container {
+  align-items: center;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  height: fit-content;
+  justify-content: center;
+  margin: 90px auto;
+  max-width: 350px;
+  width: 100%;
+}
+
+.displayCards_items {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 584px;
+  margin: 10px auto;
+  max-width: 90vw;
+  position: relative;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.displayCards_items:hover {
+  box-shadow: 0 0 10px #222;
+}
+
+.displayCards_items img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 310px;
+  width: 350px;
+}
+
+.displayCards_image_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+  width: 100%;
+}
+
+.displayCards_image_text h2 {
+  color: #11142d;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  line-height: 28.8px;
+  margin-bottom: -3px;
+  padding: 10px 14px 0 14px;
+  width: 100%;
+}
+
+.displayCards_image_text p {
+  box-sizing: border-box;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 20px;
+  padding: 0 14px;
+  width: 82%;
+}
+
+.displayCards_items button {
+  background: #c7923e;
+  border: none;
+  border-radius: 8px;
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  height: 56px;
+  left: 0;
+  margin: 0 14px 28px;
+  position: absolute;
+  transition: transform 0.3s, background-position 0.5s ease;
+  width: 117px;
+}
+
+.displayCards_items button:hover {
+  background-position: right bottom;
+  transform: translateX(10px);
+}
+
+@media screen and (max-width: 600px) {
+  .displayCards__container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,45 @@
+.text__containter {
+  text-align: center;
+  width: 100%;
+}
+
+.text__containter h1 {
+  color: #11142d;
+  font-family: 'Lora', serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74.4px;
+  padding-top: 20px;
+  letter-spacing: 0.003em;
+}
+
+.text__containter p {
+  color: #515151;
+  font-family: 'Mulish', serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 30px;
+  margin: 20px auto;
+  width: 59%;
+  text-align: left;
+}
+
+@media screen and (max-width: 980px) {
+  .text__containter {
+    padding: 0 0px;
+  }
+
+  .text__containter p {
+    width: 90%;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .text__containter h1 {
+    font-size: 42px;
+    text-align: center;
+    word-break: keep-all;
+  }
+}

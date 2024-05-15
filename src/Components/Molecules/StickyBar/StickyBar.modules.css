@@ -1,0 +1,78 @@
+.stickybar {
+  background: #304f47;
+  display: flex;
+  height: 50px;
+}
+
+.Stickybar_Content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.stickybar-info {
+  align-items: center;
+  display: flex;
+  float: left;
+  gap: 10px;
+}
+
+.Aifill {
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon-text {
+  color: #fff;
+  font-family: 'Podkova';
+  font-size: 12px;
+  padding-bottom: 5px;
+  position: relative;
+  right: 1.5%;
+}
+
+.stickybar-icons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.circle {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: flex;
+  height: 23px;
+  justify-content: center;
+  width: 23px;
+}
+
+.Bilogo {
+  color: #fff;
+  cursor: pointer;
+}
+
+.Aioutline {
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .stickybar {
+    border-bottom: 1px solid #888;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .icon-text {
+    display: none;
+  }
+
+  .stickybar-icons {
+    gap: 5px;
+  }
+}
